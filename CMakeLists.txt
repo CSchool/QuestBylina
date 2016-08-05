@@ -1,0 +1,3 @@
+cmake_minimum_required(VERSION 2.6)
+project(QuestBylina)
+add_executable(QuestBylina Action.cpp ActionGive.cpp ActionGo.cpp ActionHelp.cpp ActionInventory.cpp ActionLook.cpp ActionMap.cpp ActionSay.cpp ActionSmoke.cpp ActionTake.cpp ActionTalk.cpp ActionUse.cpp Flags.cpp Location.cpp LocationAdministration.cpp LocationCourt.cpp LocationCrossroad_1.cpp LocationCrossroad_2.cpp LocationCrossroad_3.cpp LocationForest.cpp LocationHome.cpp LocationKitchen.cpp LocationLamp.cpp LocationRiver.cpp LocationRoom.cpp LocationSchool.cpp LocationStone_House.cpp LocationVerandah.cpp Object.cpp Output.cpp Player.cpp QuestBylina.cpp)
